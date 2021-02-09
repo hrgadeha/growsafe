@@ -87,6 +87,32 @@ app_license = "MIT"
 #	}
 # }
 
+fixtures = [
+	{
+        "doctype": "Custom Field",
+        "filters": [
+            [
+                "name",
+                "in",
+                [
+			"Sales Order-branch",
+			"Sales Invoice-branch",
+			"Branch-warehouse",
+			"Sales Order-allow_submit",
+			"Sales Order-has_overdue_invoice",
+			"Sales Invoice-column_break_2",
+			"Sales Invoice-ware_house",
+			"Sales Invoice-section_break_4",
+			"Sales Invoice-shipping",
+			"Sales Invoice-grno",
+			"Sales Invoice-freightterms",
+			"Sales Invoice-column_break_131"
+		]
+	   ]
+	]
+    }
+]
+
 # Scheduled Tasks
 # ---------------
 
