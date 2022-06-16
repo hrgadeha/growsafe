@@ -4,3 +4,4 @@
 *.swp
 tags
 growsafe/docs/current
+growsafe/templates/pages/__pycache__/
